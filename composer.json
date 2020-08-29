@@ -4,9 +4,9 @@
     "type": "laravel-package",
     "keywords": ["laravel","helpdesk", "ticket", "support"],
     "require": {
-        "laravel/framework": "^5.1|^7.0",
-        "laravelcollective/html": "^5.1|^7.0",
-        "illuminate/support": "^5.1|^7.0",
+        "laravel/framework": "^7.*",
+        "laravelcollective/html": "^7.*",
+        "illuminate/support": "^7.*",
         "yajra/laravel-datatables-oracle": "^6.0|^8.0|^9.4",
         "jenssegers/date": "^3.0",
         "mews/purifier": "^2.0|^3.1",
@@ -22,6 +22,10 @@
         {
             "name": "Balázs Dura-Kovács",
             "homepage": "https://gitlab.com/balping"
+        },
+        {
+            "name": "Amir M.",
+            "homepage": "https://github.com/Geeknux"
         }
     ],
     "autoload": {
