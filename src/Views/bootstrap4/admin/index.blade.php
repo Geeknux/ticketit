@@ -214,16 +214,9 @@
 @section('footer')
     @if($tickets_count)
     {{--@include('ticketit::shared.footer')--}}
-    <script type="text/javascript"
-            src="https://www.google.com/jsapi?autoload={
-            'modules':[{
-              'name':'visualization',
-              'version':'1',
-              'packages':['corechart']
-            }]
-          }"></script>
-
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
         google.setOnLoadCallback(drawChart);
 
         // performance line chart
